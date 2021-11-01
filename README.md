@@ -12,7 +12,7 @@
 
 ### 기술 스택
 
-##### Base Graphics Engine : DirectX 12
+##### Base Graphics Engine : DirectX 11/12 (11베이스, 12는 11on12로 지원 or V2에서 포팅)
 ##### Base Physics Engine : PhysX
 ##### Base Sound Engine : Wwise
 
