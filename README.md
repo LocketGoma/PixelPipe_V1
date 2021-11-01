@@ -12,9 +12,16 @@
 
 ### 기술 스택
 
-##### Base Graphics Engine : DirectX 11/12 (11베이스, 12는 11on12로 지원 or V2에서 포팅)
-##### Base Physics Engine : PhysX
-##### Base Sound Engine : Wwise
+##### Base Engine
+1. Base Graphics Engine : DirectX 11/12 (11베이스, 12는 11on12로 지원 or V2에서 포팅)
+2. Base Physics Engine : PhysX
+3. Base Sound Engine : Wwise
+
+
+##### Addon Library
+1. RapidXML / RapidJson
+2. FBX Loader
+
 
 
 ### 규칙
@@ -24,12 +31,10 @@
 4. 전역 Static 최소화
 5. 싱글톤 최소화 (필수적인 매니저나 일부 불가피한 경우에만 쓸것)
 
-
-
 ### To do list
 
 1. 기본적인 멀티 스레드 구축
-2. FBX Loader
+2. FBX Loader(커스텀)
 3. 파티클 툴, 오브젝트 배치 툴
 4. 네비매시 자동 구축 (실제 맵 좌표에 따라 작동으로 구축해주기)
 5. 파일 외부 입출력을 통한 비 고정형 키 입력 시스템 구축 (키 설정 변경기능 추가) / Config 설정 가능하게 추가
