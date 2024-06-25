@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{d0b60120-96e6-4059-b51c-5c684bc0c6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8933f579-29b4-40c7-b84c-edafaf3b1cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer">
+      <UniqueIdentifier>{e2b9a09a-356d-471d-8338-12b2596b4848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResourceHeaders">
+      <UniqueIdentifier>{cbf40da6-8bf7-4aba-93b7-c996b8b4c444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Private">
+      <UniqueIdentifier>{483f3e88-69f0-41d9-9727-bfcf2b85eac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Public">
+      <UniqueIdentifier>{db2b8730-fbab-4cb8-b517-207e8307452c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ResourceHeaders\includes.h">
+      <Filter>Source\ResourceHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceHeaders\Resource.h">
+      <Filter>Source\ResourceHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Public\MainSystem.h">
+      <Filter>System\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Public\framework.h">
+      <Filter>System\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Public\PixelPipe.h">
+      <Filter>System\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Public\targetver.h">
+      <Filter>System\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="System\PixelPipe.ico">
+      <Filter>System</Filter>
+    </Image>
+    <Image Include="System\small.ico">
+      <Filter>System</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="System\PixelPipe.rc">
+      <Filter>System</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System\Private\MainSystem.cpp">
+      <Filter>System\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Public\PixelPipe.cpp">
+      <Filter>System\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
